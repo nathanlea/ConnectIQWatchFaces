@@ -2,7 +2,6 @@
     <iq:application entry="WordsWatchApp" id="E16AC123611B41EA9B1604EA45E1CB41" launcherIcon="LauncherIcon" name="AppName" type="watchface">
 
         <iq:products>
-            <iq:product id="square_watch"/>
             <iq:product id="vivoactive"/>
         </iq:products>
 
