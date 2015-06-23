@@ -50,7 +50,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		//
 		// Date
 		//
-		var y_data_start = 15;
+		var y_data_start = 27;
 		
 		var clock_line_date_y1 = y_data_start;
 		var clock_line_date_y2 = y_data_start+25;
@@ -99,9 +99,9 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			l+=9;
 			k-=9;
 			j+=9;
-			dc.drawPoint( l, 27);
-			dc.drawPoint( k, 27);
-			dc.drawPoint( j, 27);
+			dc.drawPoint( l, y_data_start+12);
+			dc.drawPoint( k, y_data_start+12);
+			dc.drawPoint( j, y_data_start+12);
 		}
 		
 		
@@ -112,7 +112,8 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			clock_offset = 0;
 		}
 		
-		var y_start = 80;
+		var y_start = 125;
+		var hour_drop = 75;
 		
 		var clock_line_min_y1 = y_start+5;
 		var clock_line_min_y2 = y_start+15;
@@ -141,7 +142,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		
 		var min_s = Lang.format("$1$", [info.min]);
 		
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
@@ -176,7 +177,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			hour_s_N = Lang.format("$1$", [next-12]);
 		}
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
 		x_clock += 25;
@@ -211,7 +212,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
 		//Reset position to "middle"
@@ -286,7 +287,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			nearest_full_K = steps / fullK + 1;
 		}
 		//Sys.println(nearest_half_K + " "+nearest_full_K+" " + steps);		
-		y_start = 130;
+		y_start = 180;
 		var clock_line_step_y1 = y_start+4;
 		var clock_line_step_y2 = y_start+12;
 		var clock_line_1K_step_y1  = y_start;

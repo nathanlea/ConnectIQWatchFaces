@@ -2,9 +2,7 @@
     <iq:application entry="SliderWatchFaceApp" id="01279F291E49487F9712F0995736C011" launcherIcon="LauncherIcon" name="AppName" type="watchface">
 
         <iq:products>
-            <iq:product id="vivoactive"/>
-            <iq:product id="fr920xt"/>
-            <iq:product id="epix"/>
+            <iq:product id="fenix3"/>
         </iq:products>
 
         <iq:permissions>
