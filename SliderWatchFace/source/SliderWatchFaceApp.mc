@@ -12,7 +12,10 @@ class SliderWatchFaceApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        return [ new SliderWatchFaceView() ];
+    	var view  = new SliderWatchFaceView( );
+    	var propA = App.getApp().getProperty("24hrMode");
+    	view.setProp( propA, view );
+        return [ view ];
     }
 
 }

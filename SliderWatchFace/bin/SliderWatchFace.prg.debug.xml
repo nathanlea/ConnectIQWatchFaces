@@ -1,264 +1,278 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="24" pc="268435464" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="25" pc="268435477" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="26" pc="268435490" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="27" pc="268435490" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="28" pc="268435490" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="29" pc="268435497" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="30" pc="268435504" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="31" pc="268435511" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="32" pc="268435547" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="33" pc="268435559" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="36" pc="268435595" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="37" pc="268435612" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="38" pc="268435635" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="40" pc="268435658" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="41" pc="268435748" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="42" pc="268435792" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="53" pc="268435876" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="55" pc="268435883" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="56" pc="268435887" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="58" pc="268435897" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="60" pc="268435907" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="61" pc="268435932" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="63" pc="268435948" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="64" pc="268435958" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="65" pc="268435965" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="66" pc="268436009" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="67" pc="268436063" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="68" pc="268436107" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="70" pc="268436161" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="71" pc="268436181" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="72" pc="268436213" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="73" pc="268436223" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="74" pc="268436243" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="75" pc="268436275" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="76" pc="268436285" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="77" pc="268436305" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="79" pc="268436337" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="80" pc="268436381" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="81" pc="268436435" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="82" pc="268436479" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="84" pc="268436533" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="85" pc="268436549" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="86" pc="268436556" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="87" pc="268436576" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="89" pc="268436608" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="90" pc="268436652" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="91" pc="268436706" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="92" pc="268436750" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="94" pc="268436804" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="95" pc="268436817" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="96" pc="268436821" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="97" pc="268436828" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="99" pc="268436846" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="100" pc="268436856" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="101" pc="268436866" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="102" pc="268436876" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="103" pc="268436895" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="104" pc="268436914" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="111" pc="268436946" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="112" pc="268436971" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="115" pc="268436981" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="117" pc="268436988" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="118" pc="268436998" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="119" pc="268437008" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="120" pc="268437012" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="124" pc="268437022" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="125" pc="268437032" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="126" pc="268437042" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="129" pc="268437049" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="130" pc="268437049" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="131" pc="268437049" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="132" pc="268437049" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="133" pc="268437066" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="135" pc="268437150" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="137" pc="268437234" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="139" pc="268437287" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="142" pc="268437337" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="144" pc="268437381" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="146" pc="268437429" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="147" pc="268437449" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="148" pc="268437500" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="149" pc="268437510" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="150" pc="268437538" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="151" pc="268437566" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="152" pc="268437586" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="153" pc="268437637" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="154" pc="268437647" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="155" pc="268437675" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="156" pc="268437703" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="157" pc="268437723" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="158" pc="268437774" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="159" pc="268437784" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="160" pc="268437812" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="161" pc="268437840" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="162" pc="268437860" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="163" pc="268437911" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="164" pc="268437921" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="165" pc="268437949" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="168" pc="268437977" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="169" pc="268437993" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="170" pc="268438004" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="172" pc="268438070" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="174" pc="268438136" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="176" pc="268438183" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="178" pc="268438227" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="179" pc="268438247" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="180" pc="268438295" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="182" pc="268438346" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="183" pc="268438356" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="184" pc="268438384" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="185" pc="268438412" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="186" pc="268438432" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="187" pc="268438483" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="188" pc="268438493" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="189" pc="268438521" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="190" pc="268438549" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="191" pc="268438569" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="192" pc="268438620" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="193" pc="268438630" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="194" pc="268438658" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="195" pc="268438686" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="196" pc="268438706" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="197" pc="268438757" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="198" pc="268438767" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="199" pc="268438795" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="202" pc="268438823" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="203" pc="268438839" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="204" pc="268438850" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="206" pc="268438916" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="208" pc="268438982" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="210" pc="268439029" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="213" pc="268439073" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="214" pc="268439093" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="215" pc="268439141" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="218" pc="268439192" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="219" pc="268439202" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="221" pc="268439209" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="222" pc="268439229" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="223" pc="268439257" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="224" pc="268439285" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="225" pc="268439295" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="226" pc="268439323" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="227" pc="268439351" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="228" pc="268439371" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="229" pc="268439422" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="230" pc="268439432" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="231" pc="268439460" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="232" pc="268439488" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="233" pc="268439508" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="234" pc="268439559" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="235" pc="268439569" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="236" pc="268439597" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="237" pc="268439625" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="238" pc="268439645" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="239" pc="268439696" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="243" pc="268439706" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="244" pc="268439722" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="245" pc="268439733" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="247" pc="268439799" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="249" pc="268439865" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="251" pc="268439912" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="253" pc="268439956" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="254" pc="268440004" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="255" pc="268440024" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="264" pc="268440075" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="265" pc="268440092" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="266" pc="268440102" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="267" pc="268440112" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="268" pc="268440122" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="269" pc="268440129" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="270" pc="268440136" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="272" pc="268440140" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="274" pc="268440151" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="275" pc="268440176" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="279" pc="268440183" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="280" pc="268440190" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="281" pc="268440197" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="282" pc="268440214" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="283" pc="268440227" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="285" pc="268440243" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="286" pc="268440256" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="289" pc="268440269" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="290" pc="268440276" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="291" pc="268440286" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="292" pc="268440296" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="293" pc="268440300" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="294" pc="268440310" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="296" pc="268440323" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="297" pc="268440330" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="298" pc="268440337" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="299" pc="268440348" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="301" pc="268440369" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="303" pc="268440379" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="304" pc="268440429" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="305" pc="268440483" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="306" pc="268440503" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="307" pc="268440513" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="308" pc="268440563" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="309" pc="268440617" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="310" pc="268440637" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="311" pc="268440647" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="312" pc="268440664" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="314" pc="268440674" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="315" pc="268440718" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="316" pc="268440772" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="317" pc="268440792" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="318" pc="268440802" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="319" pc="268440852" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="320" pc="268440906" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="321" pc="268440926" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="322" pc="268440936" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="323" pc="268440986" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="324" pc="268441040" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="326" pc="268441060" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="327" pc="268441073" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="328" pc="268441080" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="329" pc="268441098" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="330" pc="268441123" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="333" pc="268441146" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="336" pc="268441157" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="337" pc="268441164" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="338" pc="268441182" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="339" pc="268441207" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="342" pc="268441233" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="343" pc="268441253" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="344" pc="268441281" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="345" pc="268441309" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="346" pc="268441337" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="347" pc="268441365" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="348" pc="268441375" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="349" pc="268441425" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="350" pc="268441479" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="351" pc="268441499" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="352" pc="268441527" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="353" pc="268441555" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="354" pc="268441583" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="355" pc="268441611" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="356" pc="268441621" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="357" pc="268441671" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="358" pc="268441725" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="359" pc="268441745" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="360" pc="268441773" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="361" pc="268441801" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="362" pc="268441829" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="373" pc="268441857" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="374" pc="268441893" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="375" pc="268441940" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="376" pc="268441975" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="377" pc="268442022" symbol="onUpdate"/>
-<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceApp.mc" lineNum="15" pc="268442074" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268442390" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268442377" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="19" pc="268442115" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="20" pc="268442129" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="21" pc="268442226" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="22" pc="268442241" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268442293" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268442339" symbol="WatchFace"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="16" pc="268435458" symbol="onResponse"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="17" pc="268435469" symbol="onResponse"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="20" pc="268435485" symbol="onResponse"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="22" pc="268435498" symbol="onResponse"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="26" pc="268435513" symbol="saveResponce"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="36" pc="268435555" symbol="setProp"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="37" pc="268435565" symbol="setProp"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="38" pc="268435575" symbol="setProp"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="39" pc="268435614" symbol="setProp"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="54" pc="268435681" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="55" pc="268435698" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="56" pc="268435708" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="57" pc="268435721" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="58" pc="268435734" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="59" pc="268435734" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="60" pc="268435734" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="61" pc="268435741" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="62" pc="268435748" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="63" pc="268435755" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="64" pc="268435791" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="65" pc="268435803" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="68" pc="268435839" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="69" pc="268435856" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="70" pc="268435879" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="72" pc="268435902" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="73" pc="268435992" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="74" pc="268436036" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="85" pc="268436120" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="87" pc="268436127" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="88" pc="268436131" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="90" pc="268436141" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="92" pc="268436151" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="93" pc="268436176" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="95" pc="268436192" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="96" pc="268436202" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="97" pc="268436209" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="98" pc="268436253" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="99" pc="268436307" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="100" pc="268436351" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="102" pc="268436405" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="103" pc="268436425" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="104" pc="268436457" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="105" pc="268436467" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="106" pc="268436487" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="107" pc="268436519" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="108" pc="268436529" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="109" pc="268436549" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="111" pc="268436581" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="112" pc="268436625" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="113" pc="268436679" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="114" pc="268436723" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="116" pc="268436777" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="117" pc="268436793" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="118" pc="268436800" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="119" pc="268436820" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="121" pc="268436852" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="122" pc="268436896" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="123" pc="268436950" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="124" pc="268436994" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="126" pc="268437048" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="127" pc="268437061" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="128" pc="268437065" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="129" pc="268437072" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="131" pc="268437090" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="132" pc="268437100" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="133" pc="268437110" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="134" pc="268437120" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="135" pc="268437139" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="136" pc="268437158" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="143" pc="268437190" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="144" pc="268437215" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="147" pc="268437225" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="149" pc="268437232" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="150" pc="268437242" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="151" pc="268437252" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="152" pc="268437256" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="156" pc="268437266" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="157" pc="268437276" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="158" pc="268437286" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="161" pc="268437293" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="162" pc="268437293" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="163" pc="268437293" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="164" pc="268437293" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="165" pc="268437310" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="167" pc="268437394" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="169" pc="268437492" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="171" pc="268437545" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="174" pc="268437598" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="176" pc="268437642" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="178" pc="268437690" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="179" pc="268437710" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="180" pc="268437761" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="181" pc="268437771" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="182" pc="268437799" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="183" pc="268437827" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="184" pc="268437847" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="185" pc="268437898" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="186" pc="268437908" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="187" pc="268437936" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="188" pc="268437964" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="189" pc="268437984" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="190" pc="268438035" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="191" pc="268438045" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="192" pc="268438073" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="193" pc="268438101" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="194" pc="268438121" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="195" pc="268438172" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="196" pc="268438182" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="197" pc="268438210" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="200" pc="268438238" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="201" pc="268438254" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="202" pc="268438265" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="204" pc="268438331" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="206" pc="268438411" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="208" pc="268438461" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="210" pc="268438508" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="211" pc="268438528" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="212" pc="268438576" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="214" pc="268438627" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="215" pc="268438637" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="216" pc="268438665" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="217" pc="268438693" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="218" pc="268438713" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="219" pc="268438764" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="220" pc="268438774" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="221" pc="268438802" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="222" pc="268438830" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="223" pc="268438850" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="224" pc="268438901" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="225" pc="268438911" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="226" pc="268438939" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="227" pc="268438967" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="228" pc="268438987" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="229" pc="268439038" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="230" pc="268439048" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="231" pc="268439076" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="234" pc="268439104" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="235" pc="268439120" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="236" pc="268439131" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="238" pc="268439197" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="240" pc="268439277" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="242" pc="268439324" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="245" pc="268439371" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="246" pc="268439391" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="247" pc="268439439" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="250" pc="268439490" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="251" pc="268439500" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="253" pc="268439507" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="254" pc="268439527" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="255" pc="268439555" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="256" pc="268439583" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="257" pc="268439593" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="258" pc="268439621" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="259" pc="268439649" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="260" pc="268439669" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="261" pc="268439720" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="262" pc="268439730" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="263" pc="268439758" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="264" pc="268439786" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="265" pc="268439806" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="266" pc="268439857" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="267" pc="268439867" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="268" pc="268439895" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="269" pc="268439923" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="270" pc="268439943" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="271" pc="268439994" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="275" pc="268440004" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="276" pc="268440020" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="277" pc="268440031" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="279" pc="268440097" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="281" pc="268440177" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="283" pc="268440224" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="285" pc="268440271" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="286" pc="268440319" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="287" pc="268440339" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="296" pc="268440390" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="297" pc="268440407" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="298" pc="268440417" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="299" pc="268440427" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="300" pc="268440437" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="301" pc="268440444" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="302" pc="268440451" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="304" pc="268440455" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="306" pc="268440466" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="307" pc="268440491" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="311" pc="268440498" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="312" pc="268440505" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="313" pc="268440512" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="314" pc="268440529" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="315" pc="268440542" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="317" pc="268440558" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="318" pc="268440571" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="321" pc="268440584" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="322" pc="268440591" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="323" pc="268440601" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="324" pc="268440611" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="325" pc="268440615" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="326" pc="268440625" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="328" pc="268440638" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="329" pc="268440645" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="330" pc="268440652" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="331" pc="268440663" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="333" pc="268440684" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="335" pc="268440694" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="336" pc="268440744" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="337" pc="268440798" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="338" pc="268440818" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="339" pc="268440828" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="340" pc="268440878" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="341" pc="268440932" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="342" pc="268440952" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="343" pc="268440962" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="344" pc="268440979" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="346" pc="268440989" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="347" pc="268441033" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="348" pc="268441087" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="349" pc="268441107" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="350" pc="268441117" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="351" pc="268441167" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="352" pc="268441221" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="353" pc="268441241" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="354" pc="268441251" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="355" pc="268441301" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="356" pc="268441355" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="358" pc="268441375" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="359" pc="268441388" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="360" pc="268441395" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="361" pc="268441413" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="362" pc="268441438" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="365" pc="268441461" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="368" pc="268441472" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="369" pc="268441479" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="370" pc="268441497" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="371" pc="268441522" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="374" pc="268441548" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="375" pc="268441568" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="376" pc="268441596" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="377" pc="268441624" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="378" pc="268441652" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="379" pc="268441680" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="380" pc="268441690" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="381" pc="268441740" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="382" pc="268441794" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="383" pc="268441814" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="384" pc="268441842" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="385" pc="268441870" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="386" pc="268441898" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="387" pc="268441926" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="388" pc="268441936" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="389" pc="268441986" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="390" pc="268442040" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="391" pc="268442060" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="392" pc="268442088" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="393" pc="268442116" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="394" pc="268442144" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="405" pc="268442172" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="406" pc="268442208" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="407" pc="268442255" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="408" pc="268442290" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceView.mc" lineNum="409" pc="268442337" symbol="onUpdate"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceApp.mc" lineNum="15" pc="268442392" symbol="getInitialView"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceApp.mc" lineNum="16" pc="268442416" symbol="getInitialView"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceApp.mc" lineNum="17" pc="268442447" symbol="getInitialView"/>
+<entry filename="N:\\eclipse\\workspace\\ConnectIQWatchFaces\\SliderWatchFace\\source\\SliderWatchFaceApp.mc" lineNum="18" pc="268442463" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268442759" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268442746" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="19" pc="268442484" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="20" pc="268442498" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268442595" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268442610" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268442662" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268442708" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -283,6 +297,7 @@
 <entry id="8389362" symbol="&lt;ita&gt;"/>
 <entry field="true" id="8389521" symbol="modelNumber"/>
 <entry field="true" id="8389421" symbol="DEVICE_STATE_SEARCHING"/>
+<entry id="19" method="true" symbol="saveResponce"/>
 <entry id="8389115" symbol="mMessage"/>
 <entry field="true" id="8388810" symbol="INVALID_HTTP_HEADER_FIELDS_IN_REQUEST"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
@@ -291,6 +306,7 @@
 <entry field="true" id="8388738" symbol="currentSpeed"/>
 <entry id="8389085" symbol="mDisplayString"/>
 <entry id="8388676" method="true" symbol="testTypeCreation"/>
+<entry id="8389569" symbol="mSettings"/>
 <entry field="true" id="8388852" symbol="SUB_SPORT_STREET"/>
 <entry id="8388910" method="true" symbol="getHistory"/>
 <entry id="2" module="true" symbol="globals_Rez"/>
@@ -305,7 +321,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="10" module="true" symbol="Menus"/>
+<entry id="13" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -350,7 +366,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="13" symbol="AppName"/>
+<entry field="true" id="16" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -366,13 +382,13 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="12" symbol="LauncherIcon"/>
+<entry field="true" id="15" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
 <entry id="8389057" method="true" symbol="pageCtrlNative"/>
 <entry id="8389493" method="true" symbol="getWeightScaleStatus"/>
-<entry id="8388649" module="true" symbol="Test"/>
+<entry id="8388649" module="true" object="true" symbol="Test"/>
 <entry field="true" id="8388837" symbol="SPORT_SOCCER"/>
 <entry field="true" id="8389496" symbol="basalMetabolicRate"/>
 <entry field="true" id="8388958" symbol="speed"/>
@@ -392,6 +408,7 @@
 <entry field="true" id="8388963" symbol="altitude"/>
 <entry field="true" id="8389200" symbol="MSG_ID_CHANNEL_PERIOD"/>
 <entry id="8389463" object="true" symbol="WeightScaleUserProfile"/>
+<entry field="true" id="8389563" symbol="KEY_MODE"/>
 <entry id="8389190" method="true" symbol="drawText"/>
 <entry id="8389105" symbol="mBitmapData"/>
 <entry id="8389425" object="true" symbol="Device"/>
@@ -411,7 +428,7 @@
 <entry field="true" id="8389227" symbol="MSG_CODE_INVALID_MESSAGE"/>
 <entry id="8389020" method="true" symbol="animate"/>
 <entry field="true" id="8388950" symbol="SENSOR_BIKESPEED"/>
-<entry id="14" symbol="dat_offset"/>
+<entry id="20" symbol="dat_offset"/>
 <entry field="true" id="8389076" symbol="BEHAVIOR_ON_NEXT_MODE"/>
 <entry id="8389084" method="true" symbol="handleEvent"/>
 <entry id="8388946" method="true" symbol="greaterThan"/>
@@ -462,6 +479,7 @@
 <entry id="8388886" symbol="Toybox_ActivityRecording_Session"/>
 <entry id="8388687" method="true" symbol="testLocationSemicircles"/>
 <entry field="true" id="8389216" symbol="MSG_CODE_EVENT_RX_SEARCH_TIMEOUT"/>
+<entry field="true" id="8389560" symbol="KEY_RESET"/>
 <entry field="true" id="8388952" symbol="SENSOR_BIKEPOWER"/>
 <entry field="true" id="8388853" symbol="SUB_SPORT_TRAIL"/>
 <entry field="true" id="8389203" symbol="MSG_ID_NETWORK_KEY"/>
@@ -476,7 +494,7 @@
 <entry id="8389142" method="true" symbol="getProfile"/>
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
-<entry id="11" module="true" symbol="Layouts"/>
+<entry id="14" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389152" symbol="FONT_XTINY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -486,6 +504,7 @@
 <entry field="true" id="8388999" symbol="KEY_DOWN_LEFT"/>
 <entry id="8388885" method="true" symbol="getGeometry"/>
 <entry id="8389082" method="true" symbol="onNextMode"/>
+<entry field="true" id="8389551" symbol="PRESS_TYPE_UP"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="8389419" symbol="DEVICE_STATE_DEAD"/>
 <entry field="true" id="8388969" symbol="TONE_MSG"/>
@@ -520,6 +539,7 @@
 <entry field="true" id="8389381" symbol="OBSCURE_RIGHT"/>
 <entry id="8388714" method="true" symbol="getClockTime"/>
 <entry id="8388775" method="true" symbol="toNumber"/>
+<entry id="8389554" method="true" symbol="onKeyReleased"/>
 <entry id="8389355" symbol="&lt;eng&gt;"/>
 <entry field="true" id="8388860" symbol="SUB_SPORT_RECUMBENT"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
@@ -540,6 +560,7 @@
 <entry id="8389342" symbol="hours"/>
 <entry id="8389129" symbol="mJustification"/>
 <entry field="true" id="8388748" symbol="averageHeartRate"/>
+<entry id="8389568" method="true" symbol="runTest"/>
 <entry id="8389327" symbol="september"/>
 <entry id="8389132" method="true" symbol="setFont"/>
 <entry field="true" id="8389519" symbol="torque"/>
@@ -559,11 +580,14 @@
 <entry field="true" id="8389498" symbol="bodyWeight"/>
 <entry id="8389435" object="true" symbol="CalculatedWheelDistance"/>
 <entry field="true" id="8389442" symbol="WEIGHT_SCALE_GENDER_FEMALE"/>
+<entry field="true" id="8389561" symbol="KEY_SPORT"/>
 <entry field="true" id="8388911" symbol="distance"/>
 <entry id="8389391" method="true" symbol="testArray"/>
 <entry field="true" id="8388724" symbol="battery"/>
 <entry id="8388948" method="true" symbol="multiply"/>
 <entry id="8389041" object="true" symbol="NumberPicker"/>
+<entry id="18" method="true" symbol="setProp"/>
+<entry id="8389574" symbol="mPcStack"/>
 <entry field="true" id="8389232" symbol="CHANNEL_TYPE_RX_NOT_TX"/>
 <entry id="8388988" method="true" symbol="backlight"/>
 <entry field="true" id="8388893" symbol="PI"/>
@@ -671,6 +695,7 @@
 <entry field="true" id="8389145" symbol="wakeTime"/>
 <entry field="true" id="8388938" symbol="month"/>
 <entry field="true" id="8389217" symbol="MSG_CODE_EVENT_RX_FAIL"/>
+<entry id="8389565" method="true" symbol="encodeURL"/>
 <entry id="8389285" method="true" symbol="clearProperties"/>
 <entry field="true" id="8388834" symbol="SPORT_FITNESS_EQUIPMENT"/>
 <entry id="8389369" symbol="&lt;spa&gt;"/>
@@ -696,6 +721,7 @@
 <entry id="8388934" method="true" symbol="momentNative"/>
 <entry field="true" id="8389000" symbol="KEY_DOWN_RIGHT"/>
 <entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="8389558" symbol="KEY_START"/>
 <entry id="8389409" module="true" symbol="Toybox_AntPlus"/>
 <entry field="true" id="8388800" symbol="UNKNOWN_ERROR"/>
 <entry id="8388760" object="true" symbol="Float"/>
@@ -716,6 +742,7 @@
 <entry id="8389277" symbol="mProperties"/>
 <entry field="true" id="8389461" symbol="WEIGHT_SCALE_STATUS_COMPLETE"/>
 <entry id="8389439" object="true" symbol="BikePower"/>
+<entry field="true" id="8389572" symbol="mPassed"/>
 <entry id="8389257" method="true" symbol="close"/>
 <entry id="8389489" method="true" symbol="getAdvancedReading"/>
 <entry id="8388713" method="true" symbol="getTimer"/>
@@ -741,7 +768,7 @@
 <entry id="8388653" method="true" symbol="testGeometryIterator"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry field="true" id="8389525" symbol="hwRevision"/>
-<entry id="8" object="true" symbol="SliderWatchFaceView"/>
+<entry id="11" object="true" symbol="SliderWatchFaceView"/>
 <entry id="6" module="true" symbol="globals_Rez_Layouts"/>
 <entry field="true" id="8389219" symbol="MSG_CODE_EVENT_TRANSFER_RX_FAILED"/>
 <entry id="8389349" symbol="justification"/>
@@ -756,7 +783,7 @@
 <entry id="8388688" method="true" symbol="testSystemError"/>
 <entry id="8388686" method="true" symbol="testLocationDegree"/>
 <entry id="8389368" symbol="&lt;slv&gt;"/>
-<entry field="true" id="8388741" symbol="currentPace"/>
+<entry id="8388741" symbol="currentPace"/>
 <entry field="true" id="8389415" symbol="BATT_STATUS_CRITICAL"/>
 <entry id="8389058" object="true" symbol="Drawable"/>
 <entry field="true" id="8389013" symbol="CLICK_TYPE_RELEASE"/>
@@ -778,6 +805,7 @@
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389535" method="true" symbol="persistLocation"/>
 <entry id="8389094" method="true" symbol="setTitle"/>
+<entry field="true" id="8389562" symbol="KEY_CLOCK"/>
 <entry field="true" id="8389074" symbol="BEHAVIOR_ON_MENU"/>
 <entry id="8389052" object="true" symbol="FontResource"/>
 <entry id="8388765" object="true" symbol="Symbol"/>
@@ -787,6 +815,7 @@
 <entry id="8389533" module="true" symbol="Toybox_PersistedLocations"/>
 <entry id="8389515" method="true" symbol="getCalculatedWheelSpeed"/>
 <entry id="8388684" object="true" symbol="Object"/>
+<entry field="true" id="8389556" symbol="EXTENDED_KEYS"/>
 <entry id="8388900" method="true" symbol="pow"/>
 <entry id="8389176" object="true" symbol="Dc"/>
 <entry field="true" id="8389230" symbol="NETWORK_PLUS"/>
@@ -806,9 +835,11 @@
 <entry id="8388679" method="true" symbol="testObjectLock"/>
 <entry id="8389095" method="true" symbol="addItem"/>
 <entry field="true" id="8389157" symbol="COLOR_WHITE"/>
+<entry field="true" id="8389550" symbol="PRESS_TYPE_DOWN"/>
 <entry field="true" id="8389165" symbol="COLOR_GREEN"/>
 <entry field="true" id="8388890" symbol="sport"/>
 <entry id="8388693" method="true" symbol="testUserProfile"/>
+<entry field="true" id="8" symbol="returnVal"/>
 <entry id="8388920" object="true" symbol="Moment"/>
 <entry id="8389371" symbol="&lt;cht&gt;"/>
 <entry field="true" id="8388841" symbol="SPORT_WALKING"/>
@@ -820,6 +851,7 @@
 <entry id="8389185" method="true" symbol="fillCircle"/>
 <entry id="8388947" method="true" symbol="value"/>
 <entry id="8388654" method="true" symbol="testStopDiscardRecording"/>
+<entry id="10" object="true" symbol="CD"/>
 <entry id="8388622" module="true" symbol="Toybox_Timer"/>
 <entry field="true" id="8389138" symbol="label"/>
 <entry field="true" id="8389171" symbol="COLOR_TRANSPARENT"/>
@@ -830,10 +862,12 @@
 <entry id="8389372" symbol="&lt;chs&gt;"/>
 <entry id="8388793" method="true" symbol="keys"/>
 <entry id="8389348" symbol="font"/>
+<entry field="true" id="8389557" symbol="KEY_PAGE"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="8388870" symbol="SUB_SPORT_STRENGTH_TRAINING"/>
 <entry field="true" id="8388858" symbol="SUB_SPORT_MOUNTAIN"/>
 <entry id="8389141" object="true" symbol="Profile"/>
+<entry id="8389573" method="true" symbol="passed"/>
 <entry field="true" id="8389215" symbol="MSG_CODE_RESPONSE_NO_ERROR"/>
 <entry id="8389477" symbol="mDeviceType"/>
 <entry id="8389242" symbol="dataHigh"/>
@@ -905,6 +939,7 @@
 <entry field="true" id="8389211" symbol="MSG_ID_CLOSE_CHANNEL"/>
 <entry id="8389107" method="true" symbol="setBitmap"/>
 <entry id="8388883" method="true" symbol="discard"/>
+<entry id="8389575" symbol="mErrorCode"/>
 <entry field="true" id="8389487" symbol="state"/>
 <entry id="8389353" symbol="&lt;dan&gt;"/>
 <entry field="true" id="8388840" symbol="SPORT_TRAINING"/>
@@ -914,9 +949,10 @@
 <entry field="true" id="8388736" symbol="currentLocation"/>
 <entry field="true" id="8388916" symbol="startOfDay"/>
 <entry field="true" id="8388752" symbol="maxCadence"/>
-<entry id="9" object="true" symbol="SliderWatchFaceApp"/>
+<entry id="12" object="true" symbol="SliderWatchFaceApp"/>
 <entry id="8389338" symbol="minute"/>
 <entry id="8389086" symbol="mProgressValue"/>
+<entry field="true" id="9" symbol="lView"/>
 <entry field="true" id="8389199" symbol="MSG_ID_CHANNEL_ID"/>
 <entry field="true" id="8388836" symbol="SPORT_BASKETBALL"/>
 <entry id="8388626" module="true" symbol="Toybox_UserProfile"/>
@@ -950,6 +986,7 @@
 <entry field="true" id="8388754" symbol="swimSwolf"/>
 <entry id="8388794" method="true" symbol="values"/>
 <entry id="8389546" symbol="mHeight"/>
+<entry field="true" id="8389559" symbol="KEY_LAP"/>
 <entry id="8389059" object="true" symbol="Bitmap"/>
 <entry id="8388785" symbol="mHigh"/>
 <entry id="8389424" object="true" symbol="DeviceState"/>
@@ -1031,6 +1068,7 @@
 <entry id="8388667" method="true" symbol="testBitwiseAnd"/>
 <entry id="8388922" method="true" symbol="now"/>
 <entry id="8388780" method="true" symbol="invoke"/>
+<entry id="8389570" symbol="getTestObject"/>
 <entry field="true" id="8388847" symbol="SPORT_HIKING"/>
 <entry id="4" module="true" symbol="globals_Rez_Menus"/>
 <entry id="8388670" method="true" symbol="testShiftL"/>
@@ -1046,6 +1084,7 @@
 <entry id="8388782" method="true" symbol="size"/>
 <entry id="8388661" method="true" symbol="testBreak"/>
 <entry field="true" id="8388915" symbol="isSleepMode"/>
+<entry id="8389576" method="true" symbol="printStackTrace"/>
 <entry id="8389022" object="true" symbol="InputEvent"/>
 <entry field="true" id="8389452" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_6"/>
 <entry field="true" id="8389451" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_5"/>
@@ -1082,6 +1121,7 @@
 <entry field="true" id="8389162" symbol="COLOR_DK_RED"/>
 <entry id="8389512" method="true" symbol="getCalculatedPower"/>
 <entry field="true" id="8388872" symbol="SUB_SPORT_MATCH"/>
+<entry id="8389567" method="true" symbol="getNumberOfTests"/>
 <entry field="true" id="8389456" symbol="WEIGHT_SCALE_STATUS_SEARCHING"/>
 <entry id="8389136" method="true" symbol="getKey"/>
 <entry id="8388758" object="true" symbol="Number"/>
@@ -1095,6 +1135,7 @@
 <entry id="8389062" symbol="mInitialValue"/>
 <entry field="true" id="8389471" symbol="leftTorqueEffectiveness"/>
 <entry field="true" id="8388991" symbol="KEY_LIGHT"/>
+<entry field="true" id="8389552" symbol="PRESS_TYPE_ACTION"/>
 <entry field="true" id="8389139" symbol="GENDER_FEMALE"/>
 <entry field="true" id="8389245" symbol="deviceType"/>
 <entry field="true" id="8389209" symbol="MSG_ID_RESET_SYSTEM"/>
@@ -1111,8 +1152,8 @@
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry field="true" id="8389273" symbol="searchTimeoutHighPriority"/>
 <entry id="8389253" symbol="setPayloadWithOffset"/>
-<entry field="true" id="8389169" symbol="COLOR_PURPLE"/>
 <entry id="8389479" method="true" symbol="getDeviceState"/>
+<entry field="true" id="8389169" symbol="COLOR_PURPLE"/>
 <entry id="8389180" method="true" symbol="drawPoint"/>
 <entry id="8389260" method="true" symbol="sendBroadcast"/>
 <entry field="true" id="8388862" symbol="SUB_SPORT_HAND_CYCLING"/>
@@ -1138,7 +1179,9 @@
 <entry field="true" id="8388954" symbol="SENSOR_HEARTRATE"/>
 <entry field="true" id="8389207" symbol="MSG_ID_LIB_CONFIG"/>
 <entry id="8389010" object="true" symbol="KeyEvent"/>
+<entry id="8389553" method="true" symbol="onKeyPressed"/>
 <entry field="true" id="8388864" symbol="SUB_SPORT_INDOOR_ROWING"/>
+<entry field="true" id="17" symbol="cd"/>
 <entry field="true" id="8388845" symbol="SPORT_ROWING"/>
 <entry field="true" id="8389030" symbol="CONFIRM_YES"/>
 <entry id="8389545" symbol="mWidth"/>
@@ -1205,6 +1248,18 @@
 <localVars/>
 <annotations/>
 <functions>
+<functionEntry name="onResponse">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="saveResponce">
+<documentation/>
+</functionEntry>
+<functionEntry name="setProp">
+<param id="hrMode"/>
+<param id="view"/>
+<documentation/>
+</functionEntry>
 <functionEntry name="onLayout">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
