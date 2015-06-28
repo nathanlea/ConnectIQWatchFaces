@@ -21,6 +21,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 
     //! Update the view
     function onUpdate(dc) {
+    	var hrMode = Sys.getDeviceSettings().is24Hour;
     	var w = dc.getWidth();
     	var h = dc.getHeight();
     	var last_hour;
@@ -45,7 +46,22 @@ class SliderWatchFaceView extends Ui.WatchFace {
         //Battery Bar
 		//
 
-		//TBD
+		var bat = Sys.getSystemStats().battery;
+		dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+		
+		var bat_x_shift = 102-bat*1.02;
+		
+		dc.drawLine(102-bat_x_shift, 0, w-bat_x_shift, 0);
+		//dc.drawLine(0-bat_x_shift, 1, w-bat_x_shift, 1);
+		dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+		dc.drawLine(175-bat_x_shift, 0, w-bat_x_shift, 0);
+		dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+		dc.drawLine(195-bat_x_shift, 0, w, 0);
+		
+		
+		
+		dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+				
 		
 		//
 		// Date
@@ -133,10 +149,15 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			hour_s = Lang.format("0$1$", [info.hour]);
 		} else if( info.hour<13 && info.hour >= 10 ) {
 			hour_s = Lang.format("$1$", [info.hour]);
-		} else if(info.hour>=13 && info.hour<22) {
+		} else if(info.hour>=13 && info.hour<22 && !hrMode) {
 			hour_s = Lang.format("0$1$", [info.hour-12]);
 		} else {
-			hour_s = Lang.format("$1$", [info.hour-12]);
+			if(hrMode) {
+				hour_s = Lang.format("$1$", [info.hour]);
+			}
+			else {
+				hour_s = Lang.format("$1$", [info.hour-12]);
+			}
 		}
 		
 		var min_s = Lang.format("$1$", [info.min]);
@@ -170,10 +191,14 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			hour_s_N = Lang.format("0$1$", [next]);
 		} else if( next<13 && next>= 10 ) {
 			hour_s_N = Lang.format("$1$", [next]);
-		} else if(next>=13 && next<22) {
+		} else if(next>=13 && next<22 && !hrMode) {
 			hour_s_N = Lang.format("0$1$", [next-12]);
 		} else {
-			hour_s_N = Lang.format("$1$", [next-12]);
+			if(hrMode) {
+				hour_s_N = Lang.format("$1$", [next]);
+			} else {
+				hour_s_N = Lang.format("$1$", [next-12]);
+			}
 		}
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
@@ -204,10 +229,14 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			hour_s_N = Lang.format("0$1$", [next]);
 		} else if( next<13 && next>= 10 ) {
 			hour_s_N = Lang.format("$1$", [next]);
-		} else if(next>=13 && next<22) {
+		} else if(next>=13 && next<22 && !hrMode) {
 			hour_s_N = Lang.format("0$1$", [next-12]);
 		} else {
-			hour_s_N = Lang.format("$1$", [next-12]);
+			if(hrMode) {
+				hour_s_N = Lang.format("$1$", [next]);
+			} else {
+				hour_s_N = Lang.format("$1$", [next-12]);
+			}
 		}
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
@@ -245,16 +274,18 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			hour_s_P = Lang.format("0$1$", [prev]);
 		} else if( prev<13 && prev >= 10 ) {
 			hour_s_P = Lang.format("$1$", [prev]);
-		} else if(prev>=13 && prev<22) {
+		} else if(prev>=13 && prev<22 && !hrMode) {
 			hour_s_P = Lang.format("0$1$", [prev-12]);
 		} else {
-			hour_s_P = Lang.format("$1$", [prev-12]);
+			if(hrMode) {
+				hour_s_P = Lang.format("$1$", [prev]);
+			} else {
+				hour_s_P = Lang.format("$1$", [prev-12]);
+			}
 		}
 		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
-		
-		
 		
 		
 		//
