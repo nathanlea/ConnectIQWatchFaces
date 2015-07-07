@@ -272,6 +272,9 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		
 		//Prev Hour
 		var prev = info.hour-1;
+		if(prev==-1) {
+			prev = 23;
+		}
 		if(prev<10) {
 			hour_s_P = Lang.format("0$1$", [prev]);
 		} else if( prev<13 && prev >= 10 ) {
