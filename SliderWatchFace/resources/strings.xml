@@ -1,0 +1,31 @@
+<resources>
+	<string id="AppVersionTitle">App Version</string>
+	<string id="BackColorPrompt">Pick the Color of the background</string>
+	<string id="BackColorTitle">Backgound Color</string>
+	<string id="BarColorPrompt">Pick the Color of the center bar</string>
+	<string id="BarColorTitle">Bar Color</string>
+	<string id="NumColorPrompt">Pick the Color of the numbers</string>
+	<string id="NumColorTitle">Number Color</string>
+	<string id="BarThickPrompt">Pick the Thickness of the bar</string>
+	<string id="BarThickTitle">Bar Thickness</string>
+	<string id="zero">0</string>
+	<string id="one">1</string>
+	<string id="two">2</string>
+	<string id="three">3</string>
+	<string id="Red">Red</string>
+	<string id="Blue">Blue</string>
+	<string id="Green">Green</string>
+	<string id="Purple">Purple</string>
+	<string id="Yellow">Yellow</string>
+	<string id="Orange">Orange</string>	
+	<string id="Lt_Gray">Light Gray</string>
+	<string id="Dk_Gray">Dark Gray</string>
+	<string id="Black">Black</string>
+	<string id="Dk_Red">Dark Red</string>
+	<string id="Dk_Green">Dark Green</string>
+	<string id="Dk_Blue">Dark Blue</string>
+	<string id="Purple">Purple</string>
+	<string id="Pink">Pink</string>
+	<string id="White">White</string>
+      
+</resources>
