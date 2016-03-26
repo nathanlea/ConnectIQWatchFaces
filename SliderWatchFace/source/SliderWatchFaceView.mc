@@ -91,7 +91,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
         
         var numColor = Application.getApp().getProperty("numberColor");
         var barColor = Application.getApp().getProperty("barColor");
-        var magGlass = Application.getApp().getProperty("magGlass");
+        var stepBarOptions = Application.getApp().getProperty("stepBarOptions");
         
         //
         //Battery Bar
@@ -403,185 +403,197 @@ class SliderWatchFaceView extends Ui.WatchFace {
 
 		var activity = Act.getInfo();
 		var steps = activity.steps;
+        var cal = activity.calories;
 		var step_goal = activity.stepGoal;
-		step_offset = steps*0.1;
-		var halfK = 500;
-		var fullK = 1000;
-		var reset = false;		
+
+
+	if( stepBarOptions!=0 ) {
 		
-		if(steps>=1000) {
-			//reset count
-			step_offset = steps*0.1 - (steps/1000) * 100;
-			reset = true;
-		}
-		
-		
-		var nearest_half_K = 1;
-		var nearest_full_K = 1;
-		if(steps%1000 <= 500) {
-			nearest_half_K = steps / halfK + 2;
-			nearest_full_K = steps / fullK + 1;
-		} else {
-			nearest_half_K = steps / halfK + 1;
-			nearest_full_K = steps / fullK + 1;
-		}
-		//Sys.println(nearest_half_K + " "+nearest_full_K+" " + steps);		
-		y_start = 130;
-		var clock_line_step_y1 = y_start+4;
-		var clock_line_step_y2 = y_start+12;
-		var clock_line_1K_step_y1  = y_start;
-		var clock_line_1K_step_y2  = y_start+16;
-		x_clock = w/2 - step_offset;
-		
-		var string_step = "0";
-		var temp_offset = 5;
-		if(steps >= 10000) {
-			temp_offset = 20;	
-		} else if(steps >= 1000) {
-			temp_offset = 16;
-		}
-		string_step = Lang.format("$1$", [1000*(nearest_full_K-1)]);
-		dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
-		dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
-		x_clock += 50;
-		string_step = Lang.format("$1$", [500*(nearest_half_K-1)]); 
-		dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
-		dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
-		x_clock += 50;
-		if(1000*nearest_full_K >= 1000) {
-			temp_offset = 16;	
-		}
-		string_step = Lang.format("$1$", [1000*nearest_full_K]); 
-		dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
-		dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
-		x_clock +=50;
-		string_step = Lang.format("$1$", [500*(nearest_half_K+1)]); 
-		dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
-		dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
-		x_clock += 50;
-		string_step = Lang.format("$1$", [1000*(nearest_full_K+1)]); 
-		dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
-		dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
-		
-		x_clock = w/2 - step_offset;
-		var temp = 0;
-			for(var i = 0; i < 20; i++) {
-				dc.drawPoint( x_clock-temp, clock_line_step_y1+5);
-				temp-=10;
-				
+			if(stepBarOptions==1) {
+				steps = steps;
+			} else if(stepBarOptions==2) {
+				steps = cal;
 			}
-		if(steps<=1000) {
-			//dots
-			//x_clock-=step_offset;
-			var temp = 10;
-			for(var i = 0; i < 15; i++) {
-				dc.drawPoint( x_clock-temp, clock_line_step_y1+5);
-				temp+=10;
+
+			step_offset = steps*0.1;
+			var halfK = 500;
+			var fullK = 1000;
+			var reset = false;		
+			
+			if(steps>=1000) {
+				//reset count
+				step_offset = steps*0.1 - (steps/1000) * 100;
+				reset = true;
 			}
-		} else {
+			
+			
+			var nearest_half_K = 1;
+			var nearest_full_K = 1;
+			if(steps%1000 <= 500) {
+				nearest_half_K = steps / halfK + 2;
+				nearest_full_K = steps / fullK + 1;
+			} else {
+				nearest_half_K = steps / halfK + 1;
+				nearest_full_K = steps / fullK + 1;
+			}
+			//Sys.println(nearest_half_K + " "+nearest_full_K+" " + steps);		
+			y_start = 130;
+			var clock_line_step_y1 = y_start+4;
+			var clock_line_step_y2 = y_start+12;
+			var clock_line_1K_step_y1  = y_start;
+			var clock_line_1K_step_y2  = y_start+16;
+			x_clock = w/2 - step_offset;
+			
+			var string_step = "0";
+			var temp_offset = 5;
+			if(steps >= 10000) {
+				temp_offset = 20;	
+			} else if(steps >= 1000) {
+				temp_offset = 16;
+			}
+			string_step = Lang.format("$1$", [1000*(nearest_full_K-1)]);
+			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
 			dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
-			dc.drawPoint( x_clock-10, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-20, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-30, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-40, clock_line_step_y1+5);
-			x_clock -= 50;
-			string_step = Lang.format("$1$", [500*(nearest_half_K-3)]); 
+			x_clock += 50;
+			string_step = Lang.format("$1$", [500*(nearest_half_K-1)]); 
 			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
 			dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
-			dc.drawPoint( x_clock-10, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-20, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-30, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-40, clock_line_step_y1+5);
-			x_clock -= 50;
-			string_step = Lang.format("$1$", [1000*(nearest_full_K-2)]);
+			x_clock += 50;
+			if(1000*nearest_full_K >= 1000) {
+				temp_offset = 16;	
+			}
+			string_step = Lang.format("$1$", [1000*nearest_full_K]); 
 			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
 			dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
-			dc.drawPoint( x_clock-10, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-20, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-30, clock_line_step_y1+5);
-			dc.drawPoint( x_clock-40, clock_line_step_y1+5);
+			x_clock +=50;
+			string_step = Lang.format("$1$", [500*(nearest_half_K+1)]); 
+			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+			dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
+			x_clock += 50;
+			string_step = Lang.format("$1$", [1000*(nearest_full_K+1)]); 
+			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+			dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
+			
+			x_clock = w/2 - step_offset;
+			var temp = 0;
+				for(var i = 0; i < 20; i++) {
+					dc.drawPoint( x_clock-temp, clock_line_step_y1+5);
+					temp-=10;
+					
+				}
+			if(steps<=1000) {
+				//dots
+				//x_clock-=step_offset;
+				var temp = 10;
+				for(var i = 0; i < 15; i++) {
+					dc.drawPoint( x_clock-temp, clock_line_step_y1+5);
+					temp+=10;
+				}
+			} else {
+				dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
+				dc.drawPoint( x_clock-10, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-20, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-30, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-40, clock_line_step_y1+5);
+				x_clock -= 50;
+				string_step = Lang.format("$1$", [500*(nearest_half_K-3)]); 
+				dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+				dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
+				dc.drawPoint( x_clock-10, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-20, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-30, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-40, clock_line_step_y1+5);
+				x_clock -= 50;
+				string_step = Lang.format("$1$", [1000*(nearest_full_K-2)]);
+				dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+				dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
+				dc.drawPoint( x_clock-10, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-20, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-30, clock_line_step_y1+5);
+				dc.drawPoint( x_clock-40, clock_line_step_y1+5);
+			}
+			
+			//Mag
+			//if(magGlass) {		
+			//	var mag_start = w/2 - 40;
+			//	var mag_end   = w/2 + 40;
+			//	dc.setColor( Gfx.COLOR_BLACK, Gfx.COLOR_BLUE);
+			//	dc.fillRectangle(mag_start, clock_line_hr_y1+2, mag_end-mag_start,  clock_line_hr_y2 - clock_line_hr_y1 - 4);
+				
+			//	dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+				
+				//dc.drawLine(mag_start, clock_line_hr_y1+2, mag_start, clock_line_hr_y2-2);
+				//dc.drawLine(mag_end, clock_line_hr_y1+2, mag_end, clock_line_hr_y2-2);
+				//dc.drawLine(mag_start, clock_line_hr_y1+2, mag_end, clock_line_hr_y1+2);
+				//dc.drawLine(mag_start, clock_line_hr_y2-2, mag_end, clock_line_hr_y2-2);
+				
+			//	var mina = "";
+			//	if(min-2>0) {
+			//		if(min-2 < 10) { 
+			//			mina = Lang.format("0$1$", [min-2]);
+			//		} else {
+			//			mina = Lang.format("$1$", [min-2]);
+			//		}
+			//	} else if ( min - 2 == -2 ) {
+			//		var mintemp = 60-min;
+			//		mina = "58";
+			//	} else if ( min - 2 == -1 ) {
+			//		mina = "59";
+			//	}
+			//	var minb = "";
+			//	if(min-1>0) {
+			//		if(min-1 < 10) { 
+			//			minb = Lang.format("0$1$", [min-1]);
+			//		} else {
+			//			minb = Lang.format("$1$", [min-1]);
+			//		}
+			//	} else if ( min - 1 == -1) {
+			//		minb = "59";
+			//	}
+			//	var mind = "";
+			//	if(min+1 < 60) {
+			//		mind = Lang.format("0$1$", [min+1]);
+			//		if(min+1 < 10) { 
+			//			mind = Lang.format("0$1$", [min+1]);
+			//		} else {
+			//			mind = Lang.format("$1$", [min+1]);
+			//		}
+			//	} else if ( min + 1 == 60) {
+			//		mind = "00";
+			//	}
+			//	var mine = "";
+			//	if(min+2 < 60) {
+			//		if(min+2 < 10) { 
+			//			mine = Lang.format("0$1$", [min+2]);
+			//		} else {
+			//			mine = Lang.format("$1$", [min+2]);
+			//		}
+			//	} else if ( min + 2 == 61 ) {
+			//		mine = "01";
+			//	} else if ( min + 2 == 60 ) {
+			//		mine = "00";
+			//	}	
+			//	
+			//	var minc = "";
+			//	if(min < 10) { 
+			///		minc = Lang.format("0$1$", [min]);
+			//	} else {
+			//		minc = Lang.format("$1$", [min]);
+			//	}
+			//	
+			//	dc.drawText(mag_start+10, clock_line_hr_y1, Gfx.FONT_TINY, mina, Gfx.TEXT_JUSTIFY_CENTER);
+			//	dc.drawText(mag_start+25, clock_line_hr_y1, Gfx.FONT_TINY, minb, Gfx.TEXT_JUSTIFY_CENTER);
+			//	dc.drawText(mag_start+40, clock_line_hr_y1, Gfx.FONT_TINY, minc, Gfx.TEXT_JUSTIFY_CENTER);
+			//	dc.drawText(mag_start+55, clock_line_hr_y1, Gfx.FONT_TINY, mind, Gfx.TEXT_JUSTIFY_CENTER);
+			//	dc.drawText(mag_start+70, clock_line_hr_y1, Gfx.FONT_TINY, mine, Gfx.TEXT_JUSTIFY_CENTER);
+			//}
+			
+			//
+	        //Step Goal Bar
+			//
+	
+			//TBD
 		}
-		
-		//Mag
-		//if(magGlass) {		
-		//	var mag_start = w/2 - 40;
-		//	var mag_end   = w/2 + 40;
-		//	dc.setColor( Gfx.COLOR_BLACK, Gfx.COLOR_BLUE);
-		//	dc.fillRectangle(mag_start, clock_line_hr_y1+2, mag_end-mag_start,  clock_line_hr_y2 - clock_line_hr_y1 - 4);
-			
-		//	dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-			
-			//dc.drawLine(mag_start, clock_line_hr_y1+2, mag_start, clock_line_hr_y2-2);
-			//dc.drawLine(mag_end, clock_line_hr_y1+2, mag_end, clock_line_hr_y2-2);
-			//dc.drawLine(mag_start, clock_line_hr_y1+2, mag_end, clock_line_hr_y1+2);
-			//dc.drawLine(mag_start, clock_line_hr_y2-2, mag_end, clock_line_hr_y2-2);
-			
-		//	var mina = "";
-		//	if(min-2>0) {
-		//		if(min-2 < 10) { 
-		//			mina = Lang.format("0$1$", [min-2]);
-		//		} else {
-		//			mina = Lang.format("$1$", [min-2]);
-		//		}
-		//	} else if ( min - 2 == -2 ) {
-		//		var mintemp = 60-min;
-		//		mina = "58";
-		//	} else if ( min - 2 == -1 ) {
-		//		mina = "59";
-		//	}
-		//	var minb = "";
-		//	if(min-1>0) {
-		//		if(min-1 < 10) { 
-		//			minb = Lang.format("0$1$", [min-1]);
-		//		} else {
-		//			minb = Lang.format("$1$", [min-1]);
-		//		}
-		//	} else if ( min - 1 == -1) {
-		//		minb = "59";
-		//	}
-		//	var mind = "";
-		//	if(min+1 < 60) {
-		//		mind = Lang.format("0$1$", [min+1]);
-		//		if(min+1 < 10) { 
-		//			mind = Lang.format("0$1$", [min+1]);
-		//		} else {
-		//			mind = Lang.format("$1$", [min+1]);
-		//		}
-		//	} else if ( min + 1 == 60) {
-		//		mind = "00";
-		//	}
-		//	var mine = "";
-		//	if(min+2 < 60) {
-		//		if(min+2 < 10) { 
-		//			mine = Lang.format("0$1$", [min+2]);
-		//		} else {
-		//			mine = Lang.format("$1$", [min+2]);
-		//		}
-		//	} else if ( min + 2 == 61 ) {
-		//		mine = "01";
-		//	} else if ( min + 2 == 60 ) {
-		//		mine = "00";
-		//	}	
-		//	
-		//	var minc = "";
-		//	if(min < 10) { 
-		///		minc = Lang.format("0$1$", [min]);
-		//	} else {
-		//		minc = Lang.format("$1$", [min]);
-		//	}
-		//	
-		//	dc.drawText(mag_start+10, clock_line_hr_y1, Gfx.FONT_TINY, mina, Gfx.TEXT_JUSTIFY_CENTER);
-		//	dc.drawText(mag_start+25, clock_line_hr_y1, Gfx.FONT_TINY, minb, Gfx.TEXT_JUSTIFY_CENTER);
-		//	dc.drawText(mag_start+40, clock_line_hr_y1, Gfx.FONT_TINY, minc, Gfx.TEXT_JUSTIFY_CENTER);
-		//	dc.drawText(mag_start+55, clock_line_hr_y1, Gfx.FONT_TINY, mind, Gfx.TEXT_JUSTIFY_CENTER);
-		//	dc.drawText(mag_start+70, clock_line_hr_y1, Gfx.FONT_TINY, mine, Gfx.TEXT_JUSTIFY_CENTER);
-		//}
-		
-		//
-        //Step Goal Bar
-		//
-
-		//TBD
 
 		//This is the last thing to do
 		if( barColor == 0 ) {
