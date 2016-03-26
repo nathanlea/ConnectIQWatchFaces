@@ -8,6 +8,8 @@
 	<string id="NumColorTitle">Number Color</string>
 	<string id="BarThickPrompt">Pick the Thickness of the bar</string>
 	<string id="BarThickTitle">Bar Thickness</string>
+	<string id="stepBarOptionsPrompt">Choose what to display in the bottom slider</string>
+	<string id="stepBarOptionsTitle">Step Slider Options</string>
 	<string id="zero">0</string>
 	<string id="one">1</string>
 	<string id="two">2</string>
@@ -27,5 +29,8 @@
 	<string id="Purple">Purple</string>
 	<string id="Pink">Pink</string>
 	<string id="White">White</string>
+	<string id="off">Off</string>
+	<string id="steps">Steps</string>
+	<string id="calories">Calories</string>
       
 </resources>

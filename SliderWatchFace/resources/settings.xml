@@ -69,5 +69,13 @@
             <listEntry value="3">@Strings.three</listEntry>
         </settingConfig>
     </setting>
+    
+    <setting propertyKey="@Properties.stepBarOptions" title="@Strings.stepBarOptionsTitle" prompt="@Strings.stepBarOptionsPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.off</listEntry>
+            <listEntry value="1">@Strings.steps</listEntry>
+            <listEntry value="2">@Strings.calories</listEntry>
+        </settingConfig>
+    </setting>
 
 </settings>

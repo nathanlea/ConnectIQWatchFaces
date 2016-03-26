@@ -1,7 +1,8 @@
 <properties>
-    <property id="appVersion" type="string">2.0.0</property>
+    <property id="appVersion" type="string">2.2.1</property>
     <property id="backgroundColor" type="number">3</property>
     <property id="numberColor" type="number">0</property>
     <property id="barColor" type="number">4</property>
     <property id="barThickness" type="number">3</property>
+    <property id="stepBarOptions" type="number">1</property>
 </properties>
