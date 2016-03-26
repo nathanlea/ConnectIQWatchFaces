@@ -4,5 +4,6 @@
     <property id="numberColor" type="number">0</property>
     <property id="barColor" type="number">4</property>
     <property id="barThickness" type="number">3</property>
+    <property id="batteryThickness" type="number">2</property>
     <property id="stepBarOptions" type="number">1</property>
 </properties>

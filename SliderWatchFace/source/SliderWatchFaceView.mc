@@ -100,15 +100,53 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		var bat = Sys.getSystemStats().battery;
 		dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
 		
-		var bat_x_shift = 102-bat*1.02;
+		var bat_x_shift = 102-bat*1.02;		
 		
-		dc.drawLine(102-bat_x_shift, 0, w-bat_x_shift, 0);
-		//dc.drawLine(0-bat_x_shift, 1, w-bat_x_shift, 1);
-		dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
-		dc.drawLine(175-bat_x_shift, 0, w-bat_x_shift, 0);
-		dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-		dc.drawLine(195-bat_x_shift, 0, w, 0);
-
+		var batteryThick = Application.getApp().getProperty("batteryThickness");
+		
+		if(batteryThick==0) {
+				
+		}
+		else if(batteryThick==1) {
+			dc.drawLine(102-bat_x_shift, 0, w-bat_x_shift, 0);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(175-bat_x_shift, 0, w-bat_x_shift, 0);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(195-bat_x_shift, 0, w, 0);	
+		}
+		else if(batteryThick==2) {
+			dc.drawLine(102-bat_x_shift, 0, w-bat_x_shift, 0);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(175-bat_x_shift, 0, w-bat_x_shift, 0);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(195-bat_x_shift, 0, w, 0);
+			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(102-bat_x_shift, 1, w-bat_x_shift, 1);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(175-bat_x_shift, 1, w-bat_x_shift, 1);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(195-bat_x_shift, 1, w, 1);	
+		}
+		else if(batteryThick==3) {
+			dc.drawLine(102-bat_x_shift, 0, w-bat_x_shift, 0);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(175-bat_x_shift, 0, w-bat_x_shift, 0);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(195-bat_x_shift, 0, w, 0);
+			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(102-bat_x_shift, 1, w-bat_x_shift, 1);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(175-bat_x_shift, 1, w-bat_x_shift, 1);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(195-bat_x_shift, 1, w, 1);
+			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(102-bat_x_shift, 2, w-bat_x_shift, 2);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(175-bat_x_shift, 2, w-bat_x_shift, 2);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(195-bat_x_shift, 2, w, 2);
+				
+		}
 
 		if( numColor == 0 ) {
 			dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);	
