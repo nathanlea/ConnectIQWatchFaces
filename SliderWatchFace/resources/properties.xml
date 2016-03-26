@@ -1,5 +1,5 @@
 <properties>
-    <property id="appVersion" type="string">2.2.1</property>
+    <property id="appVersion" type="string">2.2.2</property>
     <property id="backgroundColor" type="number">3</property>
     <property id="numberColor" type="number">0</property>
     <property id="barColor" type="number">4</property>

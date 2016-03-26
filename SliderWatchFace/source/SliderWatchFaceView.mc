@@ -259,6 +259,12 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		var y_start = 80;
+		var hour_drop = 38;
+		
+		if( stepBarOptions==0 ) {
+			y_start += 15;
+			hour_drop = 45;			
+		}		
 		
 		var clock_line_min_y1 = y_start+5;
 		var clock_line_min_y2 = y_start+15;
@@ -292,8 +298,11 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		var min_s = Lang.format("$1$", [info.min]);
-		
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
+		if(stepBarOptions == 0) {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
+		} else {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
+		}
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
@@ -339,7 +348,12 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			}
 		}
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		
+		if(stepBarOptions == 0) {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		} else {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		}		
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
 		x_clock += 25;
@@ -384,7 +398,11 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		if(stepBarOptions == 0) {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		} else {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		}		
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
 		//Reset position to "middle"
@@ -430,7 +448,12 @@ class SliderWatchFaceView extends Ui.WatchFace {
 				hour_s_P = Lang.format("$1$", [prev-12]);
 			}
 		}
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
+		
+		if(stepBarOptions == 0) {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
+		} else {
+			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
+		}		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
