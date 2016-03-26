@@ -100,14 +100,44 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		var bat = Sys.getSystemStats().battery;
 		dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
 		
-		var bat_x_shift = 102-bat*1.02;
+		var bat_x_shift = 110-bat*1.02;
+		var battery_offset_1 = 110;
+		var battery_offset_2 = 185;
+		var battery_offset_3 = 205;
+		var battery_y_1 = 10;
+		var battery_y_2  = 9;
 		
-		dc.drawLine(102-bat_x_shift, 0, w-bat_x_shift, 0);
+		if(h==180) {
+			bat_x_shift = 102-bat*1.02;
+			battery_offset_1 = 108;
+			battery_offset_2 = 183;
+		    battery_offset_3 = 202;
+		    battery_y_1 = 0;
+		    battery_y_2 = 1;
+		} else if(h==205) {
+			bat_x_shift = 100-bat*.85;
+			battery_offset_1 = 90;
+			battery_offset_2 = 167;
+		    battery_offset_3 = 167;
+		    battery_y_1 = 0;
+		    battery_y_2 = 1;
+		} 
+		 else if(h==218) {
+			bat_x_shift = 110-bat*1.02;
+			battery_offset_1 = 110;
+		    battery_offset_2 = 185;
+			battery_offset_3 = 205;
+		}
+		
+		dc.drawLine(battery_offset_1-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+		dc.drawLine(battery_offset_1-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
 		//dc.drawLine(0-bat_x_shift, 1, w-bat_x_shift, 1);
 		dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
-		dc.drawLine(175-bat_x_shift, 0, w-bat_x_shift, 0);
+		dc.drawLine(battery_offset_2-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+		dc.drawLine(battery_offset_2-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
 		dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-		dc.drawLine(195-bat_x_shift, 0, w, 0);
+		dc.drawLine(battery_offset_3-bat_x_shift, battery_y_1, w, battery_y_1);
+		dc.drawLine(battery_offset_3-bat_x_shift, battery_y_2, w, battery_y_2);
 
 
 		if( numColor == 0 ) {
@@ -158,7 +188,19 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		//
 		// Date
 		//
-		var y_data_start = 15;
+		var y_data_start = 27;
+		var dot_offset   = 12;
+		
+		if(h==180) {
+			y_data_start = 15;
+		    dot_offset   = 12;
+		}else if(h==205) {
+			y_data_start = 15;
+			dot_offset   = 12;
+		} else if(h==218) {
+			y_data_start = 27;
+			dot_offset   = 12;
+		}
 		
 		var clock_line_date_y1 = y_data_start;
 		var clock_line_date_y2 = y_data_start+25;
@@ -207,9 +249,9 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			l+=9;
 			k-=9;
 			j+=9;
-			dc.drawPoint( l, 27);
-			dc.drawPoint( k, 27);
-			dc.drawPoint( j, 27);
+			dc.drawPoint( l, y_data_start+dot_offset);
+			dc.drawPoint( k, y_data_start+dot_offset);
+			dc.drawPoint( j, y_data_start+dot_offset);
 		}
 		
 		
@@ -220,7 +262,19 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			clock_offset = 0;
 		}
 		
-		var y_start = 80;
+		var y_start = 125;
+		var hour_drop = 75;
+		
+		if(h==180) {
+			y_start = 100;
+		    hour_drop   = 55;
+		} else if(h==205) {
+			y_start = 110;
+		    hour_drop   = 55;
+		} else if(h==218) {
+			y_start = 125;
+		    hour_drop   = 75;
+		}
 		
 		var clock_line_min_y1 = y_start+5;
 		var clock_line_min_y2 = y_start+15;
@@ -255,7 +309,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		
 		var min_s = Lang.format("$1$", [info.min]);
 		
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
@@ -301,7 +355,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			}
 		}
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
 		x_clock += 25;
@@ -346,7 +400,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
 		//Reset position to "middle"
@@ -392,7 +446,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 				hour_s_P = Lang.format("$1$", [prev-12]);
 			}
 		}
-		dc.drawText(x_clock, clock_line_hr_y1-38, Gfx.FONT_NUMBER_MEDIUM, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
@@ -426,7 +480,16 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			nearest_full_K = steps / fullK + 1;
 		}
 		//Sys.println(nearest_half_K + " "+nearest_full_K+" " + steps);		
-		y_start = 130;
+		y_start = 180;
+		if(h==180) {
+			y_start = 155;
+		} else if(h==218) {
+			y_start = 180;
+		}
+		
+		
+		
+		
 		var clock_line_step_y1 = y_start+4;
 		var clock_line_step_y2 = y_start+12;
 		var clock_line_1K_step_y1  = y_start;
