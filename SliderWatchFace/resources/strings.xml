@@ -8,6 +8,8 @@
 	<string id="NumColorTitle">Number Color</string>
 	<string id="BarThickPrompt">Pick the Thickness of the bar</string>
 	<string id="BarThickTitle">Bar Thickness</string>
+	<string id="BatteryThickPrompt">Pick the Thickness of the battery bar</string>
+	<string id="BatteryThickTitle">Battery Bar Thickness</string>
 	<string id="stepBarOptionsPrompt">Choose what to display in the bottom slider</string>
 	<string id="stepBarOptionsTitle">Step Slider Options</string>
 	<string id="zero">0</string>

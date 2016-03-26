@@ -98,7 +98,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		//
 
 		var bat = Sys.getSystemStats().battery;
-		dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+		
 		
 		var bat_x_shift = 110-bat*1.02;
 		var battery_offset_1 = 110;
@@ -129,15 +129,44 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			battery_offset_3 = 205;
 		}
 		
-		dc.drawLine(battery_offset_1-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
-		dc.drawLine(battery_offset_1-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
-		//dc.drawLine(0-bat_x_shift, 1, w-bat_x_shift, 1);
-		dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
-		dc.drawLine(battery_offset_2-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
-		dc.drawLine(battery_offset_2-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
-		dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-		dc.drawLine(battery_offset_3-bat_x_shift, battery_y_1, w, battery_y_1);
-		dc.drawLine(battery_offset_3-bat_x_shift, battery_y_2, w, battery_y_2);
+		var batteryThick = Application.getApp().getProperty("batteryThickness");
+		
+		if(batteryThick==0) {
+				
+		}
+		else if(batteryThick==1) {
+			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_1-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_2-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_3-bat_x_shift, battery_y_1, w, battery_y_1);
+		}
+		else if(batteryThick==2) {
+			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_1-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+			dc.drawLine(battery_offset_1-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_2-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+			dc.drawLine(battery_offset_2-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_3-bat_x_shift, battery_y_1, w, battery_y_1);
+			dc.drawLine(battery_offset_3-bat_x_shift, battery_y_2, w, battery_y_2);
+		}
+		else if(batteryThick==3) {
+			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_1-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+			dc.drawLine(battery_offset_1-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
+			dc.drawLine(battery_offset_1-bat_x_shift, battery_y_2+1, w-bat_x_shift, battery_y_2+1);
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_2-bat_x_shift, battery_y_1, w-bat_x_shift, battery_y_1);
+			dc.drawLine(battery_offset_2-bat_x_shift, battery_y_2, w-bat_x_shift, battery_y_2);
+			dc.drawLine(battery_offset_2-bat_x_shift, battery_y_2+1, w-bat_x_shift, battery_y_2+1);
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(battery_offset_3-bat_x_shift, battery_y_1, w, battery_y_1);
+			dc.drawLine(battery_offset_3-bat_x_shift, battery_y_2, w, battery_y_2);
+			dc.drawLine(battery_offset_3-bat_x_shift, battery_y_2+1, w, battery_y_2+1);
+		}
 
 
 		if( numColor == 0 ) {
