@@ -4,8 +4,7 @@ class SliderWatchFaceApp extends App.AppBase {
 
     //! onStart() is called on application start up
     function onStart() {
-    	Application.getApp().setProperty("appVersion", "2.5.2");
-    	Application.getApp().setProperty("appNotes", "Full Custom Colors and Rainbow Mode");
+    	Application.getApp().setProperty("appVersion", "2.5.4");
     }
 
     //! onStop() is called when your application is exiting

@@ -31,13 +31,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
     	var date_offset = 0.0;
     	var step_offset = 0.0;
     	
-    	var rainbow = Application.getApp().getProperty("rainbow");
-    	
     	var bakColor = Application.getApp().getProperty("backgroundColor");
-    	
-    	if(rainbow) {
-    		bakColor = Math.rand() % 13;
-    	}
     	
     	if( bakColor == 0 ) {
 			dc.setColor( Gfx.COLOR_TRANSPARENT, Gfx.COLOR_WHITE );	
@@ -156,11 +150,6 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		var dateColor = Application.getApp().getProperty("dateColor");
 		var dateBarColor = Application.getApp().getProperty("dateBarColor");
 		
-		if(rainbow) {
-    		dateColor = Math.rand() % 13;
-    		dateBarColor = Math.rand() % 13;
-    	}
-		
 		//
 		// Date
 		//
@@ -257,12 +246,6 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		var hourColor = Application.getApp().getProperty("hourColor");
 		var hourBarColor = Application.getApp().getProperty("hourBarColor");
 		var minuteColor = Application.getApp().getProperty("minuteColor");	
-		
-		if(rainbow) {
-    		hourColor = Math.rand() % 13;
-    		hourBarColor = Math.rand() % 13;
-    		minuteColor = Math.rand() % 13;
-    	}
 		
 		var hour_s;
     	var hour_s_N;
@@ -493,11 +476,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		
 		var stepColor = Application.getApp().getProperty("stepColor");
 		var stepBarColor = Application.getApp().getProperty("stepBarColor");
-		
-		if(rainbow) {
-    		stepColor = Math.rand() % 13;
-    		stepBarColor = Math.rand() % 13;    		
-    	}
+	
 		
 			if(stepBarOptions==1) {
 				steps = steps;
@@ -708,10 +687,7 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		
 		
 		var barThick = Application.getApp().getProperty("barThickness");
-		
-		if(rainbow) {
-    		barColor = Math.rand() % 13;
-    	}
+
     	getColor(barColor, dc);
 		
 		if(barThick==0) {
