@@ -2,7 +2,6 @@
 	<string id="AppName">Sliders</string>
 	<string id="AppVersionTitle">App Version</string>
 	<string id="appNotesTitle">App Notes</string>
-	<string id="rainbowTitle">Rainbow Mode</string>
 	
 	<string id="BackColorPrompt">Pick the Color of the background</string>
 	<string id="BackColorTitle">Backgound Color</string>

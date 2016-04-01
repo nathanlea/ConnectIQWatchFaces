@@ -1,7 +1,6 @@
 <properties>
-    <property id="appVersion" type="string">2.5.2</property>
-    <property id="appNotes" type="string">Full Custom Colors and Rainbow Mode</property>
-    <property id="rainbow" type="boolean">false</property>
+    <property id="appVersion" type="string">2.5.4</property>
+    <property id="appNotes" type="string">Full Custom Colors</property>
     <property id="backgroundColor" type="number">3</property>
     
     <property id="dateColor" type="number">0</property>
