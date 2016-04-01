@@ -720,13 +720,14 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		//This is the last thing to do
 		
 		var barColor = Application.getApp().getProperty("barColor");
-		getColor(barColor, dc);
+
 		
 		var barThick = Application.getApp().getProperty("barThickness");
 		
 		if(rainbow) {
     		barColor = Math.rand() % 13;
     	}
+    	getColor(barColor, dc);
 		if(barThick==0) {
 				
 		}
