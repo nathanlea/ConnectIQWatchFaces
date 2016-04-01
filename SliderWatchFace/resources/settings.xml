@@ -4,6 +4,10 @@
         <settingConfig type="alphaNumeric" readonly="true" />
     </setting>
     
+    <setting propertyKey="@Properties.appNotes" title="@Strings.appNotesTitle">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting>
+    
     <setting propertyKey="@Properties.backgroundColor" title="@Strings.BackColorTitle" prompt="@Strings.BackColorPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.White</listEntry>
@@ -23,7 +27,120 @@
         </settingConfig>
     </setting>
     
-     <setting propertyKey="@Properties.numberColor" title="@Strings.NumColorTitle" prompt="@Strings.NumColorPrompt">
+     <setting propertyKey="@Properties.dateColor" title="@Strings.dateColorTitle" prompt="@Strings.dateColorPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.White</listEntry>
+            <listEntry value="1">@Strings.Lt_Gray</listEntry>
+            <listEntry value="2">@Strings.Dk_Gray</listEntry>
+            <listEntry value="3">@Strings.Black</listEntry>
+            <listEntry value="4">@Strings.Red</listEntry>
+            <listEntry value="5">@Strings.Dk_Red</listEntry>
+            <listEntry value="6">@Strings.Orange</listEntry>
+            <listEntry value="7">@Strings.Yellow</listEntry>
+            <listEntry value="8">@Strings.Green</listEntry>
+            <listEntry value="9">@Strings.Dk_Green</listEntry>
+            <listEntry value="10">@Strings.Blue</listEntry>
+            <listEntry value="11">@Strings.Dk_Blue</listEntry>
+            <listEntry value="12">@Strings.Purple</listEntry>
+            <listEntry value="13">@Strings.Pink</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.dateBarColor" title="@Strings.dateBarColorTitle" prompt="@Strings.dateBarColorPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.White</listEntry>
+            <listEntry value="1">@Strings.Lt_Gray</listEntry>
+            <listEntry value="2">@Strings.Dk_Gray</listEntry>
+            <listEntry value="3">@Strings.Black</listEntry>
+            <listEntry value="4">@Strings.Red</listEntry>
+            <listEntry value="5">@Strings.Dk_Red</listEntry>
+            <listEntry value="6">@Strings.Orange</listEntry>
+            <listEntry value="7">@Strings.Yellow</listEntry>
+            <listEntry value="8">@Strings.Green</listEntry>
+            <listEntry value="9">@Strings.Dk_Green</listEntry>
+            <listEntry value="10">@Strings.Blue</listEntry>
+            <listEntry value="11">@Strings.Dk_Blue</listEntry>
+            <listEntry value="12">@Strings.Purple</listEntry>
+            <listEntry value="13">@Strings.Pink</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.hourColor" title="@Strings.hourColorTitle" prompt="@Strings.hourColorPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.White</listEntry>
+            <listEntry value="1">@Strings.Lt_Gray</listEntry>
+            <listEntry value="2">@Strings.Dk_Gray</listEntry>
+            <listEntry value="3">@Strings.Black</listEntry>
+            <listEntry value="4">@Strings.Red</listEntry>
+            <listEntry value="5">@Strings.Dk_Red</listEntry>
+            <listEntry value="6">@Strings.Orange</listEntry>
+            <listEntry value="7">@Strings.Yellow</listEntry>
+            <listEntry value="8">@Strings.Green</listEntry>
+            <listEntry value="9">@Strings.Dk_Green</listEntry>
+            <listEntry value="10">@Strings.Blue</listEntry>
+            <listEntry value="11">@Strings.Dk_Blue</listEntry>
+            <listEntry value="12">@Strings.Purple</listEntry>
+            <listEntry value="13">@Strings.Pink</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.minuteColor" title="@Strings.minuteColorTitle" prompt="@Strings.minuteColorPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.White</listEntry>
+            <listEntry value="1">@Strings.Lt_Gray</listEntry>
+            <listEntry value="2">@Strings.Dk_Gray</listEntry>
+            <listEntry value="3">@Strings.Black</listEntry>
+            <listEntry value="4">@Strings.Red</listEntry>
+            <listEntry value="5">@Strings.Dk_Red</listEntry>
+            <listEntry value="6">@Strings.Orange</listEntry>
+            <listEntry value="7">@Strings.Yellow</listEntry>
+            <listEntry value="8">@Strings.Green</listEntry>
+            <listEntry value="9">@Strings.Dk_Green</listEntry>
+            <listEntry value="10">@Strings.Blue</listEntry>
+            <listEntry value="11">@Strings.Dk_Blue</listEntry>
+            <listEntry value="12">@Strings.Purple</listEntry>
+            <listEntry value="13">@Strings.Pink</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.hourBarColor" title="@Strings.hourBarColorTitle" prompt="@Strings.hourBarColorPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.White</listEntry>
+            <listEntry value="1">@Strings.Lt_Gray</listEntry>
+            <listEntry value="2">@Strings.Dk_Gray</listEntry>
+            <listEntry value="3">@Strings.Black</listEntry>
+            <listEntry value="4">@Strings.Red</listEntry>
+            <listEntry value="5">@Strings.Dk_Red</listEntry>
+            <listEntry value="6">@Strings.Orange</listEntry>
+            <listEntry value="7">@Strings.Yellow</listEntry>
+            <listEntry value="8">@Strings.Green</listEntry>
+            <listEntry value="9">@Strings.Dk_Green</listEntry>
+            <listEntry value="10">@Strings.Blue</listEntry>
+            <listEntry value="11">@Strings.Dk_Blue</listEntry>
+            <listEntry value="12">@Strings.Purple</listEntry>
+            <listEntry value="13">@Strings.Pink</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.stepColor" title="@Strings.stepColorTitle" prompt="@Strings.stepColorPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.White</listEntry>
+            <listEntry value="1">@Strings.Lt_Gray</listEntry>
+            <listEntry value="2">@Strings.Dk_Gray</listEntry>
+            <listEntry value="3">@Strings.Black</listEntry>
+            <listEntry value="4">@Strings.Red</listEntry>
+            <listEntry value="5">@Strings.Dk_Red</listEntry>
+            <listEntry value="6">@Strings.Orange</listEntry>
+            <listEntry value="7">@Strings.Yellow</listEntry>
+            <listEntry value="8">@Strings.Green</listEntry>
+            <listEntry value="9">@Strings.Dk_Green</listEntry>
+            <listEntry value="10">@Strings.Blue</listEntry>
+            <listEntry value="11">@Strings.Dk_Blue</listEntry>
+            <listEntry value="12">@Strings.Purple</listEntry>
+            <listEntry value="13">@Strings.Pink</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.stepBarColor" title="@Strings.stepBarColorTitle" prompt="@Strings.stepBarColorPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.White</listEntry>
             <listEntry value="1">@Strings.Lt_Gray</listEntry>
