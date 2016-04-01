@@ -1,7 +1,17 @@
 <properties>
     <property id="appVersion" type="string">2.2.2</property>
+    <property id="appNotes" type="string">Happy April Fools Day</property>
+    <property id="rainbow" type="boolean">true</property>
     <property id="backgroundColor" type="number">3</property>
-    <property id="numberColor" type="number">0</property>
+    
+    <property id="dateColor" type="number">0</property>
+    <property id="dateBarColor" type="number">0</property>
+    <property id="hourColor" type="number">0</property>
+    <property id="hourBarColor" type="number">0</property>
+    <property id="minuteColor" type="number">0</property>
+    <property id="stepColor" type="number">0</property>
+    <property id="stepBarColor" type="number">0</property>
+    
     <property id="barColor" type="number">4</property>
     <property id="barThickness" type="number">3</property>
     <property id="batteryThickness" type="number">2</property>

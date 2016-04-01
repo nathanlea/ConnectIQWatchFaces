@@ -7,6 +7,7 @@ using Toybox.Time.Gregorian as Calendar;
 using Toybox.WatchUi as Ui;
 using Toybox.Application as App;
 using Toybox.ActivityMonitor as Act;
+using Toybox.Math as Math;
 
 class SliderWatchFaceView extends Ui.WatchFace {  
     
@@ -30,7 +31,13 @@ class SliderWatchFaceView extends Ui.WatchFace {
     	var date_offset = 0.0;
     	var step_offset = 0.0;
     	
+    	var rainbow = Application.getApp().getProperty("rainbow");
+    	
     	var bakColor = Application.getApp().getProperty("backgroundColor");
+    	
+    	if(rainbow) {
+    		bakColor = Math.rand() % 13;
+    	}
     	
     	if( bakColor == 0 ) {
 			dc.setColor( Gfx.COLOR_TRANSPARENT, Gfx.COLOR_WHITE );	
@@ -89,8 +96,6 @@ class SliderWatchFaceView extends Ui.WatchFace {
         var info = Calendar.info(Time.now(), Time.FORMAT_LONG);
         var info_T = Calendar.info(Time.now().add(new Time.Duration(86400)), Time.FORMAT_LONG);
         
-        var numColor = Application.getApp().getProperty("numberColor");
-        var barColor = Application.getApp().getProperty("barColor");
         var stepBarOptions = Application.getApp().getProperty("stepBarOptions");
         
         //
@@ -147,51 +152,14 @@ class SliderWatchFaceView extends Ui.WatchFace {
 			dc.drawLine(195-bat_x_shift, 2, w, 2);
 				
 		}
-
-		if( numColor == 0 ) {
-			dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);	
-		}
-		else if( numColor == 1 ) {
-			dc.setColor( Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( numColor == 2 ){
-			dc.setColor( Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( numColor == 3 ){
-			dc.setColor( Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( numColor == 4 ){
-			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( numColor == 5 ){
-			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( numColor == 6 ) {
-			dc.setColor( 0xFF6600, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( numColor == 7 ){
-			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( numColor == 8 ){
-			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( numColor == 9 ){
-			dc.setColor( Gfx.COLOR_DK_GREEN, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( numColor == 10 ){
-			dc.setColor( Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( numColor == 11 ){
-			dc.setColor( Gfx.COLOR_DK_BLUE, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( numColor == 12 ){
-			//Do something different if Purple. Not valid on Fenix 3 or D2 Bravo. Use 0x5500AA instead.
-			dc.setColor( 0x5500AA, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( numColor == 13 ){
-			dc.setColor( Gfx.COLOR_PINK, Gfx.COLOR_TRANSPARENT);			
-		}
 		
+		var dateColor = Application.getApp().getProperty("dateColor");
+		var dateBarColor = Application.getApp().getProperty("dateBarColor");
+		
+		if(rainbow) {
+    		dateColor = Math.rand() % 13;
+    		dateBarColor = Math.rand() % 13;
+    	}
 		
 		//
 		// Date
@@ -208,11 +176,14 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		date_offset = hour * 4.166667;
 		x_clock-=date_offset;
+		
+		getColor(dateColor, dc);	
 		var month = Lang.format("$1$", [info.day_of_week]);
 		dc.drawText(x_clock+50, clock_line_date_y1-15, Gfx.FONT_MEDIUM , month, Gfx.TEXT_JUSTIFY_CENTER );
 		var day = Lang.format("$1$", [info.day]);
 		dc.drawText(x_clock+50, clock_line_date_y1+10, Gfx.FONT_SMALL , day, Gfx.TEXT_JUSTIFY_CENTER );
 		
+		getColor(dateBarColor, dc);		
 		dc.drawLine(x_clock, clock_line_date_y1, x_clock, clock_line_date_y2);
 		dc.drawLine(x_clock+1, clock_line_date_y1, x_clock+1, clock_line_date_y2);
 		x_clock += 100;
@@ -222,21 +193,25 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		dc.drawLine(x_clock, clock_line_date_y1, x_clock, clock_line_date_y2);
 		dc.drawLine(x_clock+1, clock_line_date_y1, x_clock+1, clock_line_date_y2);
 		
+		getColor(dateColor, dc);
 		month = Lang.format("$1$", [info_T.day_of_week]);
 		dc.drawText(x_clock-50, clock_line_date_y1-15, Gfx.FONT_MEDIUM , month, Gfx.TEXT_JUSTIFY_CENTER );
 		day = Lang.format("$1$", [info_T.day]);
 		dc.drawText(x_clock-50, clock_line_date_y1+10, Gfx.FONT_SMALL , day, Gfx.TEXT_JUSTIFY_CENTER );
 		
+		getColor(dateBarColor, dc);	
 		x_clock = (w/2)-100;	
 		x_clock-=date_offset;
 		dc.drawLine(x_clock, clock_line_date_y1, x_clock, clock_line_date_y2);
 		dc.drawLine(x_clock+1, clock_line_date_y1, x_clock+1, clock_line_date_y2);
 		
+		getColor(dateColor, dc);
 		month = Lang.format("$1$", [info_Y.day_of_week]);
 		dc.drawText(x_clock+50, clock_line_date_y1-15, Gfx.FONT_MEDIUM , month, Gfx.TEXT_JUSTIFY_CENTER );
 		day = Lang.format("$1$", [info_Y.day]);
 		dc.drawText(x_clock+50, clock_line_date_y1+10, Gfx.FONT_SMALL , day, Gfx.TEXT_JUSTIFY_CENTER );
 		
+		getColor(dateBarColor, dc);
 		var l = w/2 - date_offset;
 		var k = l;
 		var j = w - date_offset;
@@ -279,6 +254,16 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		//Sys.println(clock_offset + " " + min + " " + x_clock);
 		
 		
+		var hourColor = Application.getApp().getProperty("hourColor");
+		var hourBarColor = Application.getApp().getProperty("hourBarColor");
+		var minuteColor = Application.getApp().getProperty("minuteColor");	
+		
+		if(rainbow) {
+    		hourColor = Math.rand() % 13;
+    		hourBarColor = Math.rand() % 13;
+    		minuteColor = Math.rand() % 13;
+    	}
+		
 		var hour_s;
     	var hour_s_N;
     	var hour_s_P;
@@ -298,29 +283,45 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		var min_s = Lang.format("$1$", [info.min]);
+		getColor(hourColor, dc);
 		if(stepBarOptions == 0) {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
 		} else {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s, Gfx.TEXT_JUSTIFY_CENTER);
 		}
 		
+		getColor(hourBarColor, dc);
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "15", Gfx.TEXT_JUSTIFY_CENTER);
+		
+		getColor(hourBarColor, dc);
+		
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "30", Gfx.TEXT_JUSTIFY_CENTER);
+		
+		getColor(hourBarColor, dc);
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "45", Gfx.TEXT_JUSTIFY_CENTER);
+		
+		getColor(hourBarColor, dc);
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
@@ -347,30 +348,40 @@ class SliderWatchFaceView extends Ui.WatchFace {
 				hour_s_N = Lang.format("$1$", [next-12]);
 			}
 		}
+		getColor(hourBarColor, dc);
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
 		
+		getColor(hourColor, dc);
 		if(stepBarOptions == 0) {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
 		} else {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
-		}		
-		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
+		}
 		
+		getColor(minuteColor, dc);		
+		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "15", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "30", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "45", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		x_clock += 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
@@ -398,13 +409,17 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
+		
+		getColor(hourColor, dc);
 		if(stepBarOptions == 0) {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
 		} else {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s_N, Gfx.TEXT_JUSTIFY_CENTER);
 		}		
-		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
+		getColor(minuteColor, dc);
+		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		//Reset position to "middle"
 		x_clock = w/2;
 		x_clock -= clock_offset;
@@ -416,16 +431,21 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "45", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		x_clock -= 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "30", Gfx.TEXT_JUSTIFY_CENTER);
+		getColor(hourBarColor, dc);
 		x_clock -= 25;
 		dc.drawPoint( x_clock - 8, clock_line_hr_y1+10);
 		dc.drawPoint( x_clock - 17, clock_line_hr_y1+10);
 		dc.drawLine(x_clock, clock_line_min_y1, x_clock, clock_line_min_y2);
+		getColor(minuteColor, dc);
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "15", Gfx.TEXT_JUSTIFY_CENTER);
 		x_clock -= 25;
 		
@@ -448,32 +468,43 @@ class SliderWatchFaceView extends Ui.WatchFace {
 				hour_s_P = Lang.format("$1$", [prev-12]);
 			}
 		}
-		
+		getColor(hourColor, dc);
 		if(stepBarOptions == 0) {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_HOT, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
 		} else {
 			dc.drawText(x_clock, clock_line_hr_y1-hour_drop, Gfx.FONT_NUMBER_MEDIUM, hour_s_P, Gfx.TEXT_JUSTIFY_CENTER);
-		}		
+		}	
+		
+		getColor(hourBarColor, dc);
 		dc.drawLine(x_clock, clock_line_hr_y1, x_clock, clock_line_hr_y2);
+		getColor(minuteColor, dc);	
 		dc.drawText(x_clock, clock_line_hr_y2-2, Gfx.FONT_TINY, "00", Gfx.TEXT_JUSTIFY_CENTER);
 		
 		
-		//
-		// Steps
-		//
-
+	//
+	// Steps
+	//
+	if( stepBarOptions!=0 ) {
 		var activity = Act.getInfo();
 		var steps = activity.steps;
         var cal = activity.calories;
+        var altitude = 0;
 		var step_goal = activity.stepGoal;
-
-
-	if( stepBarOptions!=0 ) {
+		
+		var stepColor = Application.getApp().getProperty("stepColor");
+		var stepBarColor = Application.getApp().getProperty("stepBarColor");
+		
+		if(rainbow) {
+    		stepColor = Math.rand() % 13;
+    		stepBarColor = Math.rand() % 13;    		
+    	}
 		
 			if(stepBarOptions==1) {
 				steps = steps;
 			} else if(stepBarOptions==2) {
 				steps = cal;
+			} else if(stepBarOptions==3) {
+				//steps = activity.altitude;
 			}
 
 			step_offset = steps*0.1;
@@ -513,26 +544,36 @@ class SliderWatchFaceView extends Ui.WatchFace {
 				temp_offset = 16;
 			}
 			string_step = Lang.format("$1$", [1000*(nearest_full_K-1)]);
+			getColor(stepColor, dc);
 			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+			getColor(stepBarColor, dc);
 			dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
 			x_clock += 50;
 			string_step = Lang.format("$1$", [500*(nearest_half_K-1)]); 
+			getColor(stepColor, dc);
 			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+			getColor(stepBarColor, dc);
 			dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
 			x_clock += 50;
 			if(1000*nearest_full_K >= 1000) {
 				temp_offset = 16;	
 			}
 			string_step = Lang.format("$1$", [1000*nearest_full_K]); 
+			getColor(stepColor, dc);
 			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+			getColor(stepBarColor, dc);
 			dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
 			x_clock +=50;
 			string_step = Lang.format("$1$", [500*(nearest_half_K+1)]); 
+			getColor(stepColor, dc);
 			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+			getColor(stepBarColor, dc);
 			dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
 			x_clock += 50;
 			string_step = Lang.format("$1$", [1000*(nearest_full_K+1)]); 
+			getColor(stepColor, dc);
 			dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+			getColor(stepBarColor, dc);
 			dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
 			
 			x_clock = w/2 - step_offset;
@@ -551,14 +592,17 @@ class SliderWatchFaceView extends Ui.WatchFace {
 					temp+=10;
 				}
 			} else {
+			getColor(stepBarColor, dc);
 				dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
 				dc.drawPoint( x_clock-10, clock_line_step_y1+5);
 				dc.drawPoint( x_clock-20, clock_line_step_y1+5);
 				dc.drawPoint( x_clock-30, clock_line_step_y1+5);
 				dc.drawPoint( x_clock-40, clock_line_step_y1+5);
 				x_clock -= 50;
-				string_step = Lang.format("$1$", [500*(nearest_half_K-3)]); 
+				string_step = Lang.format("$1$", [500*(nearest_half_K-3)]);
+				getColor(stepColor, dc); 
 				dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+				getColor(stepBarColor, dc);
 				dc.drawLine(x_clock, clock_line_step_y1, x_clock, clock_line_step_y2);
 				dc.drawPoint( x_clock-10, clock_line_step_y1+5);
 				dc.drawPoint( x_clock-20, clock_line_step_y1+5);
@@ -566,7 +610,9 @@ class SliderWatchFaceView extends Ui.WatchFace {
 				dc.drawPoint( x_clock-40, clock_line_step_y1+5);
 				x_clock -= 50;
 				string_step = Lang.format("$1$", [1000*(nearest_full_K-2)]);
+				getColor(stepColor, dc);
 				dc.drawText(x_clock-2, clock_line_1K_step_y1-10, Gfx.FONT_XTINY, string_step, Gfx.TEXT_JUSTIFY_RIGHT);
+				getColor(stepBarColor, dc);
 				dc.drawLine(x_clock, clock_line_1K_step_y1, x_clock, clock_line_1K_step_y2);
 				dc.drawPoint( x_clock-10, clock_line_step_y1+5);
 				dc.drawPoint( x_clock-20, clock_line_step_y1+5);
@@ -657,50 +703,15 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 
 		//This is the last thing to do
-		if( barColor == 0 ) {
-			dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);	
-		}
-		else if( barColor == 1 ) {
-			dc.setColor( Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( barColor == 2 ){
-			dc.setColor( Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( barColor == 3 ){
-			dc.setColor( Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( barColor == 4 ){
-			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( barColor == 5 ){
-			dc.setColor( Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT);
-		}
-		else if( barColor == 6 ){
-			dc.setColor( 0xFF6600, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( barColor == 7 ){
-			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( barColor == 8 ){
-			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( barColor == 9 ){
-			dc.setColor( Gfx.COLOR_DK_GREEN, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( barColor == 10 ){
-			dc.setColor( Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( barColor == 11 ){
-			dc.setColor( Gfx.COLOR_DK_BLUE, Gfx.COLOR_TRANSPARENT);			
-		}
-		else if( barColor == 12 ){
-			dc.setColor( 0x5500AA, Gfx.COLOR_TRANSPARENT);		
-		}
-		else if( barColor == 13 ){
-			dc.setColor( Gfx.COLOR_PINK, Gfx.COLOR_TRANSPARENT);			
-		}
+		
+        var barColor = Application.getApp().getProperty("barColor");
+		getColor(barColor, dc);
 		
 		var barThick = Application.getApp().getProperty("barThickness");
+		
+		if(rainbow) {
+    		barColor = Math.rand() % 13;
+    	}
 		
 		if(barThick==0) {
 				
@@ -719,6 +730,53 @@ class SliderWatchFaceView extends Ui.WatchFace {
 		}
 		
 		dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+    }
+    
+    function getColor(op, dc) {
+    
+    	if( op == 0 ) {
+			dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);	
+		}
+		else if( op == 1 ) {
+			dc.setColor( Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
+		}
+		else if( op == 2 ){
+			dc.setColor( Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
+		}
+		else if( op == 3 ){
+			dc.setColor( Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+		}
+		else if( op == 4 ){
+			dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+		}
+		else if( op == 5 ){
+			dc.setColor( Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT);
+		}
+		else if( op == 6 ){
+			dc.setColor( 0xFF6600, Gfx.COLOR_TRANSPARENT);			
+		}
+		else if( op == 7 ){
+			dc.setColor( Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);			
+		}
+		else if( op == 8 ){
+			dc.setColor( Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);			
+		}
+		else if( op == 9 ){
+			dc.setColor( Gfx.COLOR_DK_GREEN, Gfx.COLOR_TRANSPARENT);			
+		}
+		else if( op == 10 ){
+			dc.setColor( Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);			
+		}
+		else if( op == 11 ){
+			dc.setColor( Gfx.COLOR_DK_BLUE, Gfx.COLOR_TRANSPARENT);			
+		}
+		else if( op == 12 ){
+			dc.setColor( 0x5500AA, Gfx.COLOR_TRANSPARENT);		
+		}
+		else if( op == 13 ){
+			dc.setColor( Gfx.COLOR_PINK, Gfx.COLOR_TRANSPARENT);			
+		}
+    	
     }
 
     //! The user has just looked at their watch. Timers and animations may be started here.
