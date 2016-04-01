@@ -1,5 +1,5 @@
 <properties>
-    <property id="appVersion" type="string">2.2.2</property>
+    <property id="appVersion" type="string">2.5.0</property>
     <property id="appNotes" type="string">Happy April Fools Day</property>
     <property id="rainbow" type="boolean">true</property>
     <property id="backgroundColor" type="number">3</property>
