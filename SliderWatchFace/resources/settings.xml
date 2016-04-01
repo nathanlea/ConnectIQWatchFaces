@@ -8,6 +8,10 @@
         <settingConfig type="alphaNumeric" readonly="true" />
     </setting>
     
+    <setting propertyKey="@Properties.rainbow" title="@Strings.rainbowTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
     <setting propertyKey="@Properties.backgroundColor" title="@Strings.BackColorTitle" prompt="@Strings.BackColorPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.White</listEntry>
